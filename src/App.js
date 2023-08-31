@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header';
+import SearchBar from './components/searchbar/searchBar'
+import Categories from './components/categories/topicSlice';
+import Content from './components/content/content';
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Reddit-Noodle-Doodle (please be patient, I'm green)
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <App className="App">
+      <Header />
+      <SearchBar />
+      <Categories />
+      <Content />
+      <Footer />
+    </App>
   );
 }
-
-export default App;
