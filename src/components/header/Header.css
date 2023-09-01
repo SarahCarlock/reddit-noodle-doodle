@@ -1,0 +1,13 @@
+Header {
+    background-color: green;
+    width: auto;
+    height:20vmin;
+    display: block;
+    position: fixed;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: aliceblue;
+  }

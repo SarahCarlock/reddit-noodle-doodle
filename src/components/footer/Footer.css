@@ -1,0 +1,12 @@
+Footer {
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: aliceblue;
+  }
